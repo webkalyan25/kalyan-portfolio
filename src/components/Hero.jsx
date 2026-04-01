@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import profileImg from "../assets/me_profile.jpeg";
 
 const Hero = () => {
-  const words = ["DESIGNER", "DEVELOPER", "UI/UX DESIGNER"];
+  const words = ["WEB DESIGNER", "HTML DEVELOPER", "UI/UX DESIGNER"];
 
   const [wordIndex, setWordIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -30,14 +30,14 @@ const Hero = () => {
   }, [charIndex, wordIndex]);
 
   return (
-    <section className="hero-section text-white">
+    <section className="hero-section text-white py-5" id="home">
       <div className="container">
         <div className="row align-items-center min-vh-100">
 
           {/* LEFT CONTENT */}
           <div className="col-md-6">
         <p className="text-uppercase hero-subtitle mb-2">
-  Hi, I'm a Freelancer
+ HI, I'M A CREATIVE
 </p>
 
 <h1 className="display-3 fw-bold hero-title">

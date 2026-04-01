@@ -53,10 +53,10 @@ const ProjectModal = ({ project, onClose }) => {
             <p>{project.description}</p>
 
             <ul>
-              <li><strong>Client:</strong> {project.client}</li>
+              <li><strong>Project Type:</strong> {project.client}</li>
               <li><strong>Technologies:</strong> {project.technologies}</li>
-              <li><strong>Industry:</strong> {project.industry}</li>
-              <li><strong>Date:</strong> {project.date}</li>
+<li><strong>Duration:</strong> {project.duration}</li>
+              <li><strong>Status:</strong> {project.status}</li>
             </ul>
 
             <a

@@ -1,7 +1,7 @@
 const About = () => {
     return(
         <>
-        <section className="about-section common_space">
+      <section className="about-section common_space" id="about_me">
       <div className="container">
 
         {/* SECTION TITLE */}
@@ -20,22 +20,18 @@ const About = () => {
             </h3>
 
             <p className="about-text">
-              I'm a designer & developer with a passion for web design.
-              I enjoy developing simple, clean and slick websites that
-              provide real value to the end user.
+            A creative Web & UI/UX Designer specializing in building modern, responsive, and user-centric websites. From designing in Figma to developing with React and WordPress, I create seamless digital experiences that combine design and functionality.
             </p>
 
             <p className="about-text">
-              Thousands of clients have procured exceptional results while
-              working with me. Delivering work within time and budget which
-              meets client’s requirements is our moto.
+             I believe in clean design, efficient code, and delivering solutions that truly make an impact.
             </p>
           </div>
 
           {/* RIGHT EXPERIENCE */}
           <div className="col-lg-5 text-center mt-5 mt-lg-0">
             <div className="experience-box">
-              <h1>3</h1>
+              <h1>2</h1>
               <p>Years of <strong>Experience</strong></p>
             </div>
           </div>

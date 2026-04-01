@@ -1,18 +1,22 @@
 const Skills = () => {
   const skillsLeft = [
-    { name: "Web Design", value: 65 },
-    { name: "JavaScript", value: 80 },
-    { name: "Angular Js", value: 60 },
+    { name: "HTML/CSS", value: 80 },
+    { name: "Tailwind css", value: 60 },
+    { name: "Wordpress", value: 65 },
+    { name: "canva", value: 60 },
+
   ];
 
   const skillsRight = [
-    { name: "HTML/CSS", value: 80 },
-    { name: "React JS", value: 70 },
     { name: "Bootstrap", value: 80 },
+    { name: "React JS", value: 60 },
+    { name: "javascript", value: 40 },
+    { name: "Figma", value: 80 },
+
   ];
 
   return (
-    <section className="skills-section pt-5">
+    <section className="skills-section pt-5" id="skill">
       <div className="container">
 
         {/* Heading */}

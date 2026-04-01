@@ -14,7 +14,7 @@ const Projects = () => {
       : projects.filter(p => p.category === activeTab);
 
   return (
-    <section className="projects-section bg-white common_space">
+    <section className="projects-section bg-white common_space" id="project">
       <div className="container">
 
         {/* Heading */}
