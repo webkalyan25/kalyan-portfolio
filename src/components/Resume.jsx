@@ -55,7 +55,7 @@ During this time, I gained basic knowledge of computer fundamentals, which later
           </div>
 
           {/* RIGHT - EXPERIENCE */}
-          <div className="col-md-6 ">
+          <div className="col-md-6 mt-5 mt-md-0">
             <h4 className="mb-5">My Experience</h4>
 
  <div className="resume-item pt-0">

@@ -35,7 +35,7 @@ const Header = () => {
             </a>
 
             {/* RIGHT */}
-            <div className="d-flex align-items-center gap-4">
+            <div className="d-flex align-items-center gap-4 hamburger_outer">
               <a
                 href="tel:+918278887302"
                 className="fw-medium phone text-decoration-none"

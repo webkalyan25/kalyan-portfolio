@@ -4,11 +4,17 @@ body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(90deg, rgba(13, 15, 15, 1) 0%, rgba(56, 89, 66, 1) 50%, rgba(66, 65, 57, 1) 100%);
 }
+
 :root {
   --accent: #f5c842;
 }
 
-.common_space{
+.container{
+  width: 100%;
+  max-width: 90%;
+}
+
+.common_space {
   padding: 100px 0;
 }
 
@@ -47,7 +53,7 @@ body {
   position: relative;
   overflow: hidden;
   border: 2px solid var(--accent);
-    background-color: rgba(245, 200, 66, 0.05);
+  background-color: rgba(245, 200, 66, 0.05);
   color: var(--accent);
   font-weight: 600;
   transition: color 0.4s ease;
@@ -101,15 +107,18 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
 .hero-section {
   min-height: 100vh;
 }
+
 .cursor {
   display: inline-block;
   margin-left: 4px;
   animation: blink 2s infinite;
   color: var(--accent);
 }
+
 @keyframes blink {
 
   0%,
@@ -131,7 +140,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
@@ -154,9 +163,9 @@ body {
   z-index: 9999;
   transition: 0.4s ease;
   padding: 20px;
-   background: #fff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    border-left: 2px solid var(--accent);
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-left: 2px solid var(--accent);
 }
 
 .offcanvas-menu.active {
@@ -197,20 +206,25 @@ body {
   margin-top: 10px;
   text-decoration: none;
 }
-.offcanvas-header span{
+
+.offcanvas-header span {
   cursor: pointer;
 }
+
 .offcanvas-body .social_icon {
   bottom: 12px;
 }
+
 .offcanvas-body .social_icon a {
   color: #212529;
 }
+
 .hero-subtitle {
-  color: #b5cbb7; /* muted green-gray */
+  color: #b5cbb7;
+  /* muted green-gray */
   letter-spacing: 2px;
   font-size: 14px;
-   margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .hero-title {
@@ -236,7 +250,8 @@ body {
   color: #fff;
   font-weight: 400;
 }
-.hero-section button{
+
+.hero-section button {
   border-radius: 0;
 }
 
@@ -245,6 +260,7 @@ body {
   color: #ffffff;
   font-weight: 600;
 }
+
 /* ABOUT SECTION */
 .about-section {
   background-color: #ffffff;
@@ -299,23 +315,23 @@ body {
 }
 
 .experience-box h1 {
-    font-size: 144px;
-    font-weight: 400;
-    position: relative;
-    z-index: 2;
+  font-size: 144px;
+  font-weight: 400;
+  position: relative;
+  z-index: 2;
 }
 
 .experience-box::before {
-    content: "";
-    position: absolute;
-    top: 54px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
-    background-color: #f5c842;
-    border-radius: 50%;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: #f5c842;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .experience-box p {
@@ -336,7 +352,9 @@ body {
 
 .info-value.link {
   text-decoration: underline;
+  word-break: break-all;
 }
+
 /* RESUME SECTION */
 .resume-section {
   background-color: #ffffff;
@@ -372,15 +390,16 @@ body {
 
 /* FIXED YELLOW LINE */
 .resume-item::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0px;
-    width: 1px;
-    height: 100%;
-    background-color: var(--accent);
-    border: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 1px;
+  height: 100%;
+  background-color: var(--accent);
+  border: 0;
 }
+
 /* Meta text */
 .resume-meta {
   display: block;
@@ -514,7 +533,7 @@ body {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0, 0, 0, 0.85);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -537,8 +556,15 @@ body {
 }
 
 @keyframes zoomIn {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* ===== CLOSE ===== */
@@ -584,14 +610,20 @@ body {
   cursor: pointer;
 }
 
-.arrow.left { left: 15px; }
-.arrow.right { right: 15px; }
+.arrow.left {
+  left: 15px;
+}
+
+.arrow.right {
+  right: 15px;
+}
 
 /* dots */
 .dots {
   text-align: center;
   margin-top: 12px;
 }
+
 .dots span {
   display: inline-block;
   width: 10px;
@@ -601,6 +633,7 @@ body {
   margin: 0 5px;
   cursor: pointer;
 }
+
 .dots .active {
   background: #f7c600;
 }
@@ -748,15 +781,16 @@ body {
 .contact-form textarea {
   width: 100%;
   border: none;
-  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
   padding: 8px 0;
   outline: none;
   color: #ffffffa8;
 }
+
 .contact-form input:focus,
-.contact-form textarea:focus{
-  border-bottom:1px solid var(--accent);
+.contact-form textarea:focus {
+  border-bottom: 1px solid var(--accent);
 }
 
 .contact-form textarea {
@@ -812,4 +846,82 @@ body {
 .download-cv-btn:hover {
   background: #f4c430;
   color: #000;
+}
+
+
+/* responsive code  */
+@media screen and (max-width: 1199px){
+  .hero-img-wrapper img{
+    height: 350px;
+    width: 350px;
+  }
+  .hero-section{
+    padding: 100px 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .modal-body{
+    flex-wrap: wrap;
+  }
+  .modal-slider{
+    width: 100%;
+  }
+  .modal-info{
+    width: 100%;
+  }
+  .modal-overlay{
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .main-header a.logo{
+    display: none;
+  }
+ .main-header .hamburger_outer {
+  justify-content: space-between;
+  width: 100%;
+ }
+ .hero-section {
+        padding: 50px 0 !important;
+    }
+    .hero-img-wrapper img{
+      height: 300px;
+      width: 300px;
+    }
+    .hero-section h1{
+      font-size: 32px;
+    }
+    .hero-section span{
+      font-size: 35px;
+    }
+    .hero-section .btn-slide-left span, .hero-section .btn-slide-right span{
+      font-size: 16px;
+    }
+    .common_space{
+      padding: 70px 0;
+    }
+    .about-heading{
+      font-size: 28px;
+    }
+    .about-title{
+      font-size: 20px;
+    }
+    .experience-box h1{
+      font-size: 100px;
+    }
+    .experience-box::before{
+      top: 35px;
+    }
+    .project-tabs {
+    gap: 10px 50px;
+    flex-wrap: wrap;
+}
+.hire-title{
+  font-size: 32px;
+}
+.contact-title{
+  font-size: 32px;
+}
 }

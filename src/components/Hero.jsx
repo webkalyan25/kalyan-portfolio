@@ -32,10 +32,10 @@ const Hero = () => {
   return (
     <section className="hero-section text-white py-5" id="home">
       <div className="container">
-        <div className="row align-items-center min-vh-100">
+        <div className="row align-items-center min-vh-100 flex-column-reverse flex-lg-row g-4">
 
           {/* LEFT CONTENT */}
-          <div className="col-md-6">
+          <div className="col-12 col-lg-6">
         <p className="text-uppercase hero-subtitle mb-2">
  HI, I'M A CREATIVE
 </p>
@@ -51,19 +51,19 @@ const Hero = () => {
 
 
             <div className="mt-4 d-flex gap-3">
-             <button className="btn btn-slide-left btn-lg px-4">
+            <a href="#project"><button className="btn btn-slide-left btn-lg px-4">
   <span>View My Works</span>
-</button>
+</button></a> 
 
-<button className="btn btn-slide-right btn-lg px-4">
+<a href="#contact"><button className="btn btn-slide-right btn-lg px-4">
   <span>Contact Me</span>
-</button>
+</button></a>
 
             </div>
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="col-md-6 text-center mt-5 mt-md-0">
+          <div className="col-12 col-lg-6 text-center mt-5 mt-md-0">
             <div className="hero-img-wrapper">
               <img src={profileImg} alt="profile" />
             </div>

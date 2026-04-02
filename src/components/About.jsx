@@ -41,22 +41,22 @@ const About = () => {
         {/* INFO ROW */}
         <div className="row mt-5 pt-4 border-top">
 
-          <div className="col-md-3 col-sm-6 mb-3">
+          <div className=" col-sm-6 col-md-4 col-lg-3 mb-3">
             <p className="info-label">Name:</p>
             <p className="info-value">Kalyan Singh</p>
           </div>
 
-          <div className="col-md-3 col-sm-6 mb-3">
+          <div className="col-sm-6 col-md-4 col-lg-3 mb-3">
             <p className="info-label">Email:</p>
             <p className="info-value link">webkalyan334@gmail.com</p>
           </div>
 
-          <div className="col-md-3 col-sm-6 mb-3">
+          <div className="col-sm-6 col-md-4 col-lg-3 mb-3">
             <p className="info-label">Date of birth:</p>
             <p className="info-value">12 september, 2000</p>
           </div>
 
-          <div className="col-md-3 col-sm-6 mb-3">
+          <div className="col-sm-6 col-md-4 col-lg-3 mb-3">
             <p className="info-label">From:</p>
             <p className="info-value">Himachal Pradesh, India</p>
           </div>
