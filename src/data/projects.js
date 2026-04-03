@@ -2,7 +2,7 @@ import pixfit1 from "../assets/html/pixfit_1.png";
 import pixfit2 from "../assets/html/pixfit_2.png";
 import kad from "../assets/html/kad.png";
 import kad2 from "../assets/html/kad2.png";
-// import pixelize1 from "../assets/html/pixelize1.png";
+import pixelize1 from "../assets/html/pixelize1.png";
 import pixelize2 from "../assets/html/pixelize2.png";
 import revi1 from "../assets/html/revi1.png";
 import revi2 from "../assets/html/revi2.png";
@@ -75,7 +75,7 @@ const projects = [
     id: 2,
     title: "Business Website",
     category: "HTML / CSS",
-    images: [pixelize2],
+    images: [pixelize1, pixelize2],
     client: "GYM Website / Landing Page",
     technologies: "HTML, CSS, Bootstrap, JavaScript",
     duration: "2 Days",
