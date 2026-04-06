@@ -30,9 +30,9 @@ const Hero = () => {
   }, [charIndex, wordIndex]);
 
   return (
-    <section className="hero-section text-white py-5" id="home">
+    <section className="hero-section text-white" id="home">
       <div className="container">
-        <div className="row align-items-center min-vh-100 flex-column-reverse flex-lg-row g-4">
+        <div className="row align-items-center flex-column-reverse flex-lg-row g-4">
 
           {/* LEFT CONTENT */}
           <div className="col-12 col-lg-6">
