@@ -63,7 +63,7 @@ const Hero = () => {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="col-12 col-lg-6 text-center mt-5 mt-md-0">
+          <div className="col-12 col-lg-6 text-center mt-md-0">
             <div className="hero-img-wrapper">
               <img src={profileImg} alt="profile" />
             </div>
